@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+.banner {
+    background: linear-gradient(purple, blue, lightblue);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+    height: 100vh;
+}
+
+.banner_content {
+    font-size: 20px;
+}
+
+.banner_button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.banner_button:hover {
+    @keyframes identifier {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }animation: fadeIn 1s ease-in-out;
+    background-color: white;
+    color: black;
+    border-color: red;
+    text-decoration: underline;
+    font-size: 1rem;
+    transform: scale(1.1);
+}
